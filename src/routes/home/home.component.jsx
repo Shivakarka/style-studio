@@ -32,7 +32,10 @@
       ];
     
       return (
+        <>
+        <h1 className='welcome'>Welcome to Style Studio</h1>
         <Directory categories={categories}/>
+        </>
       );
  }
  
